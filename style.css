@@ -3,3 +3,64 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.headerSection{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 2em;
+
+	box-shadow: 1px 16px 12px 0px rgba(253,224,78,0.55);
+}
+
+.headerSectionTitle{
+	font-size: xx-large;
+	font-family: var(--title-font);
+}
+
+.headerSectionText{
+	padding: 1em;
+	font-size: x-large;
+	font-style: italic;
+	font-family: var(--body-font);
+}
+
+.aboutText{
+	font-family: var(--body-font);
+	text-align: center;
+	padding-top: 3em;
+	width: 55%;
+	margin: auto;
+	font-size: large;
+}
+
+.randomSection{
+	padding: 2em;
+	text-align: center;
+}
+
+.randomButton{
+	padding: 1em;
+	font-size: large;
+	font-family: var(--title-font);
+	background-color: var(--primary-color);
+	border: none;
+	border-radius: 10px;
+}
+
+.searchSection{
+	padding: 2em;
+	text-align: center;
+	font-size: large;
+}
+
+.searchForm__label{
+font-family: var(--title-font);
+}
+
+.searchForm__button{
+	font-family: var(--title-font);
+	padding: .5em;
+	border: none;
+	border-radius: 10px;
+}
