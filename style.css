@@ -64,3 +64,22 @@ font-family: var(--title-font);
 	border: none;
 	border-radius: 10px;
 }
+
+.animalPicture{
+	padding-top: 2em;
+	height:400px;
+	
+}
+.animalAge{
+	font-family: var(--body-font);
+	font-size: large;
+}
+.animalName{
+	font-family: var(--title-font);
+	font-size: x-large;
+}
+
+.animalText{
+	font-family: var(--body-font);
+	font-size:large;
+}
