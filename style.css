@@ -53,6 +53,14 @@
 	background-color: var(--primary-color);
 	border: none;
 	border-radius: 10px;
+	margin-bottom: .8em;
+}
+
+.randomButton:hover,
+.searchForm__button:hover{
+	background-color: #db9f29;
+	color: white;
+	box-shadow: 15px 11px 14px -8px rgba(194,194,194,0.83);
 }
 
 .searchSection {
