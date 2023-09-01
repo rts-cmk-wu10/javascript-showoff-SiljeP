@@ -4,43 +4,50 @@
 	box-sizing: border-box;
 }
 
-.headerSection{
+
+.headerSection {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	padding-top: 2em;
 
-	box-shadow: 1px 16px 12px 0px rgba(253,224,78,0.55);
+	box-shadow: 1px 16px 12px 0px rgba(253, 224, 78, 0.55);
 }
 
-.headerSectionTitle{
+.headerSectionTitle {
 	font-size: xx-large;
 	font-family: var(--title-font);
 }
 
-.headerSectionText{
+.headerSectionTitle__link {
+	text-decoration: none;
+	color: black;
+}
+
+.headerSectionText {
 	padding: 1em;
 	font-size: x-large;
 	font-style: italic;
 	font-family: var(--body-font);
 }
 
-.aboutText{
+.aboutText {
 	font-family: var(--body-font);
 	text-align: center;
 	padding-top: 3em;
 	width: 55%;
 	margin: auto;
-	font-size: large;
+	font-size: x-large;
 }
 
-.randomSection{
+.randomSection {
 	padding: 2em;
 	text-align: center;
 }
 
-.randomButton{
-	padding: 1em;
+.randomButton,
+.searchForm__button {
+	padding: .7em;
 	font-size: large;
 	font-family: var(--title-font);
 	background-color: var(--primary-color);
@@ -48,38 +55,35 @@
 	border-radius: 10px;
 }
 
-.searchSection{
+.searchSection {
 	padding: 2em;
 	text-align: center;
-	font-size: large;
+	font-size: x-large;
 }
 
-.searchForm__label{
-font-family: var(--title-font);
-}
-
-.searchForm__button{
-	font-family: var(--title-font);
-	padding: .5em;
-	border: none;
-	border-radius: 10px;
-}
-
-.animalPicture{
-	padding-top: 2em;
-	height:400px;
-	
-}
-.animalAge{
-	font-family: var(--body-font);
-	font-size: large;
-}
-.animalName{
+.searchForm__label,
+.searchForm__input {
 	font-family: var(--title-font);
 	font-size: x-large;
 }
 
-.animalText{
+.animalPicture {
+	padding-top: 2em;
+	height: 400px;
+
+}
+
+.animalAge {
 	font-family: var(--body-font);
-	font-size:large;
+	font-size: large;
+}
+
+.animalName {
+	font-family: var(--title-font);
+	font-size: x-large;
+}
+
+.animalText {
+	font-family: var(--body-font);
+	font-size: large;
 }

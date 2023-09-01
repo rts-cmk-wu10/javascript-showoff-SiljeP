@@ -1,3 +1,11 @@
+const HEADER_LINK = document.querySelector(".headerSectionTitle__link")
+
+HEADER_LINK.addEventListener("click", reloadPage)
+
+function reloadPage(event) {
+    document.location.reload(event)
+}
+
 const MYPETS = [
     {
         picture: "/images/bucky.png",
@@ -74,15 +82,15 @@ function submitHandler(event) {
     const SEARCH_SECTION = document.querySelector(".searchSection")
     RESULTS.forEach(function (result) {
         const ANIMAL_ARTICLE = document.createElement("article")
-        
+
         ANIMAL_ARTICLE.innerHTML = `
        <img class="animalPicture" src="${result.picture}">
        <h2 class="animalName">${result.name}</h2>
        <span class="animalAge">${result.age} år gammel</span>
        <p class="animalText">${result.name} er en ${result.species} af racen ${result.race}. Som elsker at spise ${result.favFood.join(', ')}</p>
        `
-       console.log("hej");
-      SEARCH_SECTION.append(ANIMAL_ARTICLE)
+        console.log("hej");
+        SEARCH_SECTION.append(ANIMAL_ARTICLE)
     })
 }
 
